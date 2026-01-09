@@ -86,8 +86,10 @@ nav ul a:hover {
     height: 674px;
     background-color: #0A0A0A;
     margin-top: 20px;
-    background-image: url("assets/hero-bg.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("assets/hero-bg.png");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .header-btn {
