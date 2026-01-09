@@ -208,19 +208,20 @@ nav ul a:hover {
     margin-left: 120px;
 }
 
-.info-1{
-     display: flex;
-    justify-content: center; 
+.info-1 {
+    display: flex;
+    justify-content: center;
     align-items: flex-end;
     font-size: 48px;
     font-weight: 700;
     padding: auto;
     padding-top: 60px;
 }
-.info-2{
-      display: flex;
-    justify-content: center; 
-    color:#627382;
+
+.info-2 {
+    display: flex;
+    justify-content: center;
+    color: #627382;
     align-items: flex-end;
     font-size: 16px;
     font-weight: 400;
@@ -229,10 +230,10 @@ nav ul a:hover {
 
 /* Card Section Styles */
 .card {
-   padding-top: 44px;
-   display: flex;
-   gap:24px;
-   margin-left: 120px;
+    padding-top: 44px;
+    display: flex;
+    gap: 24px;
+    margin-left: 120px;
 }
 
 .card-1 {
@@ -260,7 +261,7 @@ nav ul a:hover {
     margin: 69.5px 131px 16px 131px;
 }
 
- 
+
 
 .card-info-1 {
     font-size: 24px;
@@ -276,6 +277,45 @@ nav ul a:hover {
     text-align: center;
     margin-left: 24px;
 }
+
+/*Big Card Section Styles */
+.big-card {
+    display: flex;
+    padding: 120px 120px;
+}
+
+.big-card-container {
+    margin-left: 60px;
+    margin-top: 102px;
+
+
+}
+.big-card-info-0 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.big-card-info-1 {
+    color: #0A1E3D;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.big-card-info-2{
+    color: #627382;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.big-card-container-2
+{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 16px;
+}
+
+
 
 /* Footer Styles */
 footer {
@@ -346,6 +386,3 @@ footer {
     font-size: 14px;
     opacity: 0.8;
 }
-
-
-
